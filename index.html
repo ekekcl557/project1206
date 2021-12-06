@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <title>UI구현</title>
+  <!-- 
+    1. 폰트설정(노토산스KR)
+    2. 메뉴구현(인터랙션-1.메뉴 클릭시 이동 2.모바일 메뉴 클릭시 이동 3. 모바일메뉴 이동 후 메뉴 닫히기)
+    3. 내부 너비 1400px, 모바일 메뉴 등장 ~980
+    3. 기타사항 작업결과물 참고
+    4. 상기 주석은 제거 후 압축파일로 제출
+  -->
+
+  <!-- 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- library -->
+  <script src="./assets/js/libs/jquery-3.6.0.js"></script>
+  
+  <!-- js -->
+  <script src="./assets/js/script.js"></script>
+
+</head>
+<body>
+  <!-- header -->
+  <header class="hd">
+    <div class="inner">
+      <h1 class="logo">
+        <a href="#">
+          logo
+        </a>
+      </h1>
+
+      <div class="gnb pc-gnb">
+        <div class="gnb-left">
+          <ul>
+            <li class="dep"><a href="#">pc menu1</a></li>
+            <li class="dep"><a href="#">pc menu2</a></li>
+            <li class="dep"><a href="#">pc menu3</a></li>
+          </ul>
+        </div>
+        <div class="gnb-right">
+          <ul>
+            <li class="dep"><a href="#">pc menu4</a></li>
+            <li class="dep"><a href="#">pc menu5</a></li>
+            <li class="dep"><a href="#">pc menu6</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 모바일 hd -->
+      <div class="gnb mob-gnb">
+        <div class="gnb-box">
+          <ul>
+            <li class="dep"><a href="#">mobile menu1</a></li>
+            <li class="dep"><a href="#">mobile menu2</a></li>
+            <li class="dep"><a href="#">mobile menu3</a></li>
+            <li class="dep"><a href="#">mobile menu4</a></li>
+            <li class="dep"><a href="#">mobile menu5</a></li>
+            <li class="dep"><a href="#">mobile menu6</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="toggle-menu">
+        <div>
+          <span class="bar bar1"></span>
+          <span class="bar bar2"></span>
+          <span class="bar bar3"></span>
+        </div>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="content" id="cont1">
+    <div class="inner sec-header">
+      <h2>영역1</h2>
+    </div>
+  </section>
+  <section class="content" id="cont2">
+    <div class="inner sec-header">
+      <h2>영역2</h2>
+    </div>
+  </section>
+  <section class="content" id="cont3">
+    <div class="inner sec-header">
+      <h2>영역3</h2>
+    </div>
+  </section>
+  <section class="content" id="cont4">
+    <div class="inner sec-header">
+      <h2>영역4</h2>
+    </div>
+  </section>
+  <section class="content" id="cont5">
+    <div class="inner sec-header">
+      <h2>영역5</h2>
+    </div>
+  </section>
+  <section class="content" id="cont6">
+    <div class="inner sec-header">
+      <h2>영역6</h2>
+    </div>
+  </section>
+
+</body>
+</html>
