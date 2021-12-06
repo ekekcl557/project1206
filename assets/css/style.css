@@ -44,7 +44,7 @@
 }
 
 /*hd*/
-.hd { position: fixed; background-color: rgb(255, 229, 80); width: 100%; min-height: 60px; top: 0; z-index: 100;}
+.hd { position: fixed; background-color: rgb(0, 211, 200); width: 100%; min-height: 60px; top: 0; z-index: 100;}
 .hd .logo {
     color: #000;
     position: absolute; top: 50%; left: 50%; 
@@ -82,7 +82,7 @@
 }
 .hd .gnb-box {
     width: 250px;
-    background-color: rgb(255, 229, 80);
+    background-color: rgb(0, 211, 200);
     padding-top: 60px;
     transform: translateX(-100%);
     transition: transform 0.4s ease;
